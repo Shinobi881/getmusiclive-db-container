@@ -50,18 +50,6 @@ CREATE TABLE event_genres (
 );
 
 -- ---
--- Table 'Event Locations'
--- Location for events (city)
--- ---
-
-DROP TABLE IF EXISTS event_locations;
-    
-CREATE TABLE event_locations (
-  id serial PRIMARY KEY,
-  event_location VARCHAR(20) NULL DEFAULT NULL -- Music event locations
-);
-
--- ---
 -- Table 'Event Venues'
 -- Venue for events (address)
 -- ---
